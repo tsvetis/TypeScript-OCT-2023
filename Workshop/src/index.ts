@@ -1,5 +1,5 @@
 import { router } from "./router";
-import { HtmlUtil } from "./utils/html-util";
+import { HtmlUtil } from "./utils/html";
 
 const rootDiv = document.getElementById("root");
 
