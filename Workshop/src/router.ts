@@ -1,4 +1,4 @@
-import { RouterMap } from "./types/router";
+import { RouterMap } from "./types/routerTypes";
 import { aboutPage } from "./views/about";
 import { contactPage } from "./views/contact";
 import { homePage } from "./views/home";

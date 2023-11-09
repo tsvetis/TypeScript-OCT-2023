@@ -1,4 +1,4 @@
-import { User } from "../types/user";
+import { User } from "../types/userTypes";
 
 export class UsersService {
   private apiUrl: string;

@@ -1,4 +1,4 @@
-import { RouterMap } from "../types/router";
+import { RouterMap } from "../types/routerTypes";
 
 export class HtmlUtil {
   static render(rootDiv: HTMLElement | null, router: RouterMap) {
