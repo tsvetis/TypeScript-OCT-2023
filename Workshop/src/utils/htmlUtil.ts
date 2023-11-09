@@ -15,21 +15,16 @@ export class HtmlUtil {
 
   static allEventListeners(rootDiv: HTMLElement, router: RouterMap) {
     // capture elements
-    const homeAnchor: HTMLElement | null = document.getElementById("home");
-    const aboutAnchor = document.getElementById("about");
-    const contactAnchor = document.getElementById("contact");
+    const usersAnchor: HTMLElement | null = document.getElementById("users");
+    const postsAnchor = document.getElementById("posts");
 
     // event listeners attachement
-    homeAnchor?.addEventListener("click", () =>
+    usersAnchor?.addEventListener("click", () =>
       HtmlUtil.onNavigate(rootDiv, router, "/")
     );
 
-    aboutAnchor?.addEventListener("click", () =>
-      HtmlUtil.onNavigate(rootDiv, router, "/about")
-    );
-
-    contactAnchor?.addEventListener("click", () =>
-      HtmlUtil.onNavigate(rootDiv, router, "/contact")
+    postsAnchor?.addEventListener("click", () =>
+      HtmlUtil.onNavigate(rootDiv, router, "/post")
     );
   }
 
